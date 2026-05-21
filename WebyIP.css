@@ -1,0 +1,31 @@
+﻿/* Estilos para la tabla */
+#miTabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#miTabla th, #miTabla td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#miTabla th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el botón */
+#generarArchivoBtn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#generarArchivoBtn:hover {
+    background-color: #45a049;
+}
