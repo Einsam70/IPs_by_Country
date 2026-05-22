@@ -3,8 +3,8 @@
     const generarArchivoBtn = document.getElementById('generarArchivoBtn');
     const generarArchivoTxtBtn = document.getElementById('generarArchivoTxtBtn');
 
-    // Realizar la llamada para obtener el objeto con los códigos ISO 3166 y nombres de países
-    fetch('paises.json') // Asegúrate de tener un archivo JSON con los códigos de países y nombres
+    // Llamada para obtener el objeto con los códigos ISO 3166 y nombres de países
+    fetch('paises.json') // JSON con los códigos de países y nombres
         .then(response => response.json())
         .then(paises => {
         	// Obtener las claves (códigos de país) y ordenarlas alfabéticamente
