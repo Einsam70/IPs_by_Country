@@ -10,8 +10,10 @@ Selecciona el pais del que quieres obtener el listado actualizado de IPs e indic
 
 # 3. Por hacer
 
+- Nombre de columnas
 - Opción otros idiomas
 - Modo oscuro
+- Exportación a demanda del usuario / carga de Ips cuando se seleccione el pais
 
 # 4. Agradecimientos
 
